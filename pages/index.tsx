@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import NavBar from '@/components/NavBar';
-import Footer from '@/components/Footer';
-import Hero from '@/components/Hero';
-import IdeaCard from '@/components/IdeaCard';
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
+import Hero from '../components/Hero';
+import IdeaCard from '../components/IdeaCard';
 
 type Idea = { title: string; summary: string; author: string; tension: number };
 
